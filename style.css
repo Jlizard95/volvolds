@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; 
+  background: url(volvo.jpg);
+  background-repeat: round; 
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+/*the above is recommended for all websites*/
+
+h1{
+  font-size: 5rem;
+  color: #0dcaf0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+hr {
+  border-color: #F05F44;
+  border-width: 5px;
+  
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-info {  
+    background-color: lightblue;  
+    border-color: lightblue;  
+    --bs-btn-hover-bg: #ee4b08; 
+    --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-xl:hover {
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
